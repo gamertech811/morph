@@ -1,165 +1,132 @@
-[03nov2025 17:04:17.555] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[03nov2025 17:04:17.557] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_462 by Private Build
-[03nov2025 17:04:17.673] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[03nov2025 17:04:17.699] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/home/info2025/Desktop/servidor/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[03nov2025 17:04:18.333] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[03nov2025 17:04:22.551] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
-[03nov2025 17:04:22.577] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
-[03nov2025 17:04:22.634] [modloading-worker-4/INFO] [me.ichun.mods.morph.common.Morph/]: Extracted 382 Morph-related files.
-[03nov2025 17:04:23.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03nov2025 17:04:23.410] [modloading-worker-0/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 35 NBT Modifier(s)
-[03nov2025 17:04:23.539] [modloading-worker-0/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 69 Mob Data(s) from 169 files
-[03nov2025 17:04:23.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.34 Target: null
-[03nov2025 17:04:25.608] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03nov2025 17:04:26.811] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [morph, resources] and [morph, player] with inputs: [resources]
-[03nov2025 17:04:26.826] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03nov2025 17:04:26.827] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03nov2025 17:04:26.828] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03nov2025 17:04:26.829] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03nov2025 17:04:26.830] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03nov2025 17:04:26.842] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34-universal.jar, iChunUtil-1.16.5-10.7.0.jar, tl_skin_cape_forge_1.15.2_1.16.5-1.37.jar, Morph-1.16.5-10.2.1.jar, jei-1.16.5-7.8.0.1013.jar, cloth-config-4.17.132-forge.jar
-[03nov2025 17:04:27.481] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[03nov2025 17:04:28.205] [Worker-Main-10/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 928 advancements
-[03nov2025 17:04:29.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[03nov2025 17:04:29.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03nov2025 17:04:29.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03nov2025 17:04:29.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[03nov2025 17:04:29.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03nov2025 17:04:29.667] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[03nov2025 17:04:29.795] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/morph.toml is not correct. Correcting
-[03nov2025 17:04:29.801] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morph was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03nov2025 17:04:29.801] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morph.morphTime was corrected from null to its default, 100. 
-[03nov2025 17:04:29.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morph.aggressiveSizeRecalculation was corrected from null to its default, false. 
-[03nov2025 17:04:29.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morph.supportedAttributes was corrected from null to its default, [minecraft:generic.max_health;more;20, minecraft:generic.knockback_resistance;more, minecraft:generic.movement_speed;more;0.1, minecraft:generic.attack_damage;more, minecraft:generic.attack_knockback;more, minecraft:generic.attack_speed;more, minecraft:generic.armor;more, minecraft:generic.luck;more, minecraft:horse.jump_strength;more, forge:swim_speed;more, forge:reach_distance;more]. 
-[03nov2025 17:04:29.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morph.disabledTraits was corrected from null to its default, []. 
-[03nov2025 17:04:29.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morph.silentMorphs was corrected from null to its default, false. 
-[03nov2025 17:04:29.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key biomass was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03nov2025 17:04:29.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key biomass.biomassValue was corrected from null to its default, 0.3. 
-[03nov2025 17:04:29.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key biomass.biomassBypassAdvancement was corrected from null to its default, false. 
-[03nov2025 17:04:29.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gameplay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03nov2025 17:04:29.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gameplay.disabledMobs was corrected from null to its default, [minecraft:armor_stand]. 
-[03nov2025 17:04:29.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gameplay.morphMode was corrected from null to its default, CLASSIC. 
-[03nov2025 17:04:29.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gameplay.biomassSkinWhilstInvisible was corrected from null to its default, true. 
-[03nov2025 17:04:29.828] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morphMode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03nov2025 17:04:29.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morphMode.commandAllowSelector was corrected from null to its default, false. 
-[03nov2025 17:04:29.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key morphMode.classicUpgradeTraits was corrected from null to its default, false. 
-[03nov2025 17:04:29.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03nov2025 17:04:29.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter.biomassFilterType was corrected from null to its default, DENY. 
-[03nov2025 17:04:29.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter.biomassFilterNames was corrected from null to its default, []. 
-[03nov2025 17:04:29.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter.morphFilterType was corrected from null to its default, DENY. 
-[03nov2025 17:04:29.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter.morphFilterNames was corrected from null to its default, []. 
-[03nov2025 17:04:29.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter.selectorFilterType was corrected from null to its default, DENY. 
-[03nov2025 17:04:29.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key playerFilter.selectorFilterNames was corrected from null to its default, []. 
-[03nov2025 17:04:29.846] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
-[03nov2025 17:04:29.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03nov2025 17:04:29.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[03nov2025 17:04:29.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[03nov2025 17:04:29.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[03nov2025 17:04:29.873] [Server thread/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 3 Biomass Upgrade(s)
-[03nov2025 17:04:29.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03nov2025 17:04:30.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03nov2025 17:04:31.739] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03nov2025 17:04:31.743] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03nov2025 17:04:31.744] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03nov2025 17:04:31.744] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03nov2025 17:04:32.089] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
-[03nov2025 17:04:33.331] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03nov2025 17:04:33.333] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03nov2025 17:04:33.570] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03nov2025 17:04:34.075] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03nov2025 17:04:34.570] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
-[03nov2025 17:04:35.044] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4975 ms
-[03nov2025 17:04:35.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.258s)! For help, type "help"
-[03nov2025 17:04:37.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /advancement (grant|revoke)
-[03nov2025 17:04:37.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /attribute <target> <attribute> (base|get|modifier)
-[03nov2025 17:04:37.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban <targets> [<reason>]
-[03nov2025 17:04:37.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban-ip <target> [<reason>]
-[03nov2025 17:04:37.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /banlist [ips|players]
-[03nov2025 17:04:37.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /bossbar (add|get|list|remove|set)
-[03nov2025 17:04:37.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clear [<targets>]
-[03nov2025 17:04:37.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[03nov2025 17:04:37.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /config showfile <mod> <type>
-[03nov2025 17:04:37.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /data (get|merge|modify|remove)
-[03nov2025 17:04:37.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /datapack (disable|enable|list)
-[03nov2025 17:04:37.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /debug (report|start|stop)
-[03nov2025 17:04:37.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /defaultgamemode (adventure|creative|spectator|survival)
-[03nov2025 17:04:37.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /deop <targets>
-[03nov2025 17:04:37.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /difficulty [easy|hard|normal|peaceful]
-[03nov2025 17:04:37.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /effect (clear|give)
-[03nov2025 17:04:37.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /enchant <targets> <enchantment> [<level>]
-[03nov2025 17:04:37.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[03nov2025 17:04:37.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /experience (add|query|set)
-[03nov2025 17:04:37.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[03nov2025 17:04:37.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forceload (add|query|remove)
-[03nov2025 17:04:37.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forge (dimensions|entity|generate|mods|setdimension|tps|track)
-[03nov2025 17:04:37.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /function <name>
-[03nov2025 17:04:37.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamemode (adventure|creative|spectator|survival)
-[03nov2025 17:04:37.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[03nov2025 17:04:37.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /give <targets> <item> [<count>]
-[03nov2025 17:04:37.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /help [<command>]
-[03nov2025 17:04:37.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kick <targets> [<reason>]
-[03nov2025 17:04:37.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kill [<targets>]
-[03nov2025 17:04:37.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /list [uuids]
-[03nov2025 17:04:37.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[03nov2025 17:04:37.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locatebiome <biome>
-[03nov2025 17:04:37.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /loot (give|insert|replace|spawn)
-[03nov2025 17:04:37.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /me <action>
-[03nov2025 17:04:37.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /morph (resources|<player>)
-[03nov2025 17:04:37.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /msg <targets> <message>
-[03nov2025 17:04:37.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /op <targets>
-[03nov2025 17:04:37.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon <targets>
-[03nov2025 17:04:37.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon-ip <target>
-[03nov2025 17:04:37.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /particle <name> [<pos>]
-[03nov2025 17:04:37.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[03nov2025 17:04:37.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /recipe (give|take)
-[03nov2025 17:04:37.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /reload
-[03nov2025 17:04:37.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /replaceitem (block|entity)
-[03nov2025 17:04:37.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-all [flush]
-[03nov2025 17:04:37.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-off
-[03nov2025 17:04:37.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-on
-[03nov2025 17:04:37.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /say <message>
-[03nov2025 17:04:37.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /schedule (clear|function)
-[03nov2025 17:04:37.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /scoreboard (objectives|players)
-[03nov2025 17:04:37.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /seed
-[03nov2025 17:04:37.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[03nov2025 17:04:37.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setidletimeout <minutes>
-[03nov2025 17:04:37.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setworldspawn [<pos>]
-[03nov2025 17:04:37.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spawnpoint [<targets>]
-[03nov2025 17:04:37.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spectate [<target>]
-[03nov2025 17:04:37.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[03nov2025 17:04:37.650] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stop
-[03nov2025 17:04:37.650] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[03nov2025 17:04:37.650] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /summon <entity> [<pos>]
-[03nov2025 17:04:37.650] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tag <targets> (add|list|remove)
-[03nov2025 17:04:37.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /team (add|empty|join|leave|list|modify|remove)
-[03nov2025 17:04:37.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teammsg <message>
-[03nov2025 17:04:37.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teleport (<destination>|<location>|<targets>)
-[03nov2025 17:04:37.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tell -> msg
-[03nov2025 17:04:37.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tellraw <targets> <message>
-[03nov2025 17:04:37.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /time (add|query|set)
-[03nov2025 17:04:37.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[03nov2025 17:04:37.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tm -> teammsg
-[03nov2025 17:04:37.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tp -> teleport
-[03nov2025 17:04:37.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /trigger <objective> [add|set]
-[03nov2025 17:04:37.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /w -> msg
-[03nov2025 17:04:37.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /weather (clear|rain|thunder)
-[03nov2025 17:04:37.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /whitelist (add|list|off|on|reload|remove)
-[03nov2025 17:04:37.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /worldborder (add|center|damage|get|set|warning)
-[03nov2025 17:04:37.655] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /xp -> experience
-[03nov2025 17:04:43.655] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
-[03nov2025 17:04:43.657] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: morph<--[HERE]
-[03nov2025 17:04:47.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
-[03nov2025 17:04:47.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: mods<--[HERE]
-[03nov2025 17:04:50.101] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[03nov2025 17:04:50.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03nov2025 17:04:50.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03nov2025 17:04:50.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03nov2025 17:04:50.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03nov2025 17:04:51.697] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03nov2025 17:04:51.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03nov2025 17:04:51.698] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03nov2025 17:04:51.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03nov2025 17:04:51.699] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03nov2025 17:04:51.722] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03nov2025 17:04:51.729] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03nov2025 17:04:51.729] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Nov2025 21:48:29.315] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
+[03Nov2025 21:48:29.318] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_462 by Private Build
+[03Nov2025 21:48:29.757] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Nov2025 21:48:29.796] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/morph/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[03Nov2025 21:48:31.257] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[03Nov2025 21:48:37.750] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
+[03Nov2025 21:48:37.810] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
+[03Nov2025 21:48:38.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Nov2025 21:48:38.652] [modloading-worker-2/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 35 NBT Modifier(s)
+[03Nov2025 21:48:38.799] [modloading-worker-2/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 69 Mob Data(s) from 169 files
+[03Nov2025 21:48:39.207] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.34 Target: null
+[03Nov2025 21:48:41.361] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Nov2025 21:48:42.363] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [morph, resources] and [morph, player] with inputs: [resources]
+[03Nov2025 21:48:42.373] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Nov2025 21:48:42.378] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Nov2025 21:48:42.379] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Nov2025 21:48:42.385] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Nov2025 21:48:42.386] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Nov2025 21:48:42.397] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34-universal.jar, iChunUtil-1.16.5-10.7.0.jar, tl_skin_cape_forge_1.15.2_1.16.5-1.37.jar, Morph-1.16.5-10.2.1.jar, jei-1.16.5-7.8.0.1013.jar
+[03Nov2025 21:48:43.402] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[03Nov2025 21:48:44.328] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 928 advancements
+[03Nov2025 21:48:46.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[03Nov2025 21:48:46.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Nov2025 21:48:46.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Nov2025 21:48:46.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Nov2025 21:48:46.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Nov2025 21:48:46.472] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[03Nov2025 21:48:46.795] [Server thread/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 3 Biomass Upgrade(s)
+[03Nov2025 21:48:46.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Nov2025 21:48:47.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Nov2025 21:48:49.135] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2025 21:48:49.137] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2025 21:48:49.138] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2025 21:48:49.138] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2025 21:48:49.139] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2025 21:48:49.574] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Nov2025 21:48:52.913] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:52.915] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:52.915] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:52.917] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:52.921] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:52.921] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:53.007] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[03Nov2025 21:48:53.509] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[03Nov2025 21:48:54.015] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[03Nov2025 21:48:54.513] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[03Nov2025 21:48:55.015] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[03Nov2025 21:48:55.509] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[03Nov2025 21:48:56.004] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[03Nov2025 21:48:56.509] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[03Nov2025 21:48:57.049] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
+[03Nov2025 21:48:57.368] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 10366 ms
+[03Nov2025 21:48:57.369] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.706s)! For help, type "help"
+[03Nov2025 21:49:08.071] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gamer_tech811 is 9d9d69c4-4f4b-4c9f-9c83-287915cc4521
+[03Nov2025 21:49:09.355] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5ca3d8cc
+[03Nov2025 21:49:09.403] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gamer_tech811[/127.106.92.100:50297] logged in with entity id 263 at (220.390408377795, 75.0, -79.29827464615879)
+[03Nov2025 21:49:09.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 joined the game
+[03Nov2025 21:49:19.141] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Survival Mode]
+[03Nov2025 21:52:45.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Monster Hunter]
+[03Nov2025 21:54:00.836] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Stone Age]
+[03Nov2025 21:54:12.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Getting an Upgrade]
+[03Nov2025 21:56:09.434] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 burned to death
+[03Nov2025 21:56:24.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Creative Mode]
+[03Nov2025 21:57:22.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Survival Mode]
+[03Nov2025 21:58:56.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Gave 64 [Steak] to gamer_tech811]
+[03Nov2025 22:02:13.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Creative Mode]
+[03Nov2025 22:02:27.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Gamerule keepInventory is now set to: true]
+[03Nov2025 22:02:28.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Survival Mode]
+[03Nov2025 22:04:36.535] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 was shot by Skeleton
+[03Nov2025 22:07:45.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Acquire Hardware]
+[03Nov2025 22:08:44.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Isn't It Iron Pick]
+[03Nov2025 22:13:21.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Hot Stuff]
+[03Nov2025 22:22:25.985] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 lost connection: Disconnected
+[03Nov2025 22:22:25.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 left the game
+[03Nov2025 22:23:21.877] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gamer_tech811 is 9d9d69c4-4f4b-4c9f-9c83-287915cc4521
+[03Nov2025 22:23:23.045] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5c8b15ff
+[03Nov2025 22:23:23.051] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gamer_tech811[/127.106.92.100:41083] logged in with entity id 5785 at (573.1386994217196, 72.0, -76.37816886358324)
+[03Nov2025 22:23:23.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 joined the game
+[03Nov2025 22:31:32.986] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 was kicked for floating too long!
+[03Nov2025 22:31:32.987] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 lost connection: Flying is not enabled on this server
+[03Nov2025 22:31:32.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 left the game
+[03Nov2025 22:31:33.081] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[03Nov2025 22:31:36.694] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gamer_tech811 is 9d9d69c4-4f4b-4c9f-9c83-287915cc4521
+[03Nov2025 22:31:37.889] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2e7f117
+[03Nov2025 22:31:37.895] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gamer_tech811[/127.106.92.100:35273] logged in with entity id 8884 at (652.7306739080651, 84.1464306619483, -113.81888069519918)
+[03Nov2025 22:31:37.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 joined the game
+[03Nov2025 22:32:23.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [We Need to Go Deeper]
+[03Nov2025 22:32:53.936] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 lost connection: Disconnected
+[03Nov2025 22:32:53.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 left the game
+[03Nov2025 22:32:55.945] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gamer_tech811 is 9d9d69c4-4f4b-4c9f-9c83-287915cc4521
+[03Nov2025 22:32:57.139] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@30b8b164
+[03Nov2025 22:32:57.151] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gamer_tech811[/127.106.92.100:46407] logged in with entity id 9592 at (56.79662599234021, 95.0, -11.038188942012475)
+[03Nov2025 22:32:57.158] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 joined the game
+[03Nov2025 22:33:27.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 tried to swim in lava
+[03Nov2025 22:38:35.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Ice Bucket Challenge]
+[03Nov2025 22:43:14.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Teleported gamer_tech811 to 72.5, 97.0, -9.5]
+[03Nov2025 22:43:43.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has completed the challenge [Hot Tourist Destinations]
+[03Nov2025 22:48:59.537] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 tried to swim in lava to escape Hoglin
+[03Nov2025 22:49:49.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 fell from a high place
+[03Nov2025 22:49:51.612] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 moved wrongly!
+[03Nov2025 22:49:57.935] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 moved wrongly!
+[03Nov2025 22:51:32.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Teleported gamer_tech811 to 561.5, 72.0, -73.5]
+[03Nov2025 22:51:54.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 fell from a high place
+[03Nov2025 22:52:02.466] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Teleported gamer_tech811 to 571.5, 72.0, -76.5]
+[03Nov2025 22:53:47.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Gave 1 [Carved Pumpkin] to gamer_tech811]
+[03Nov2025 22:59:02.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [A Terrible Fortress]
+[03Nov2025 22:59:28.600] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 fell from a high place
+[03Nov2025 22:59:34.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Teleported gamer_tech811 to 571.5, 72.0, -76.5]
+[03Nov2025 22:59:44.354] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Teleported gamer_tech811 to -664.5, 67.0, -375.5]
+[03Nov2025 23:00:17.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Into Fire]
+[03Nov2025 23:00:35.369] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 moved too quickly! 9.697839303861201,0.0,3.4366762157691255
+[03Nov2025 23:01:48.526] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 moved too quickly! 9.626593350375344,3.1745408595849085,3.100159317758937
+[03Nov2025 23:01:51.572] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 moved too quickly! 10.749331702172128,-1.242354274347349,0.2550708392706724
+[03Nov2025 23:03:07.310] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Creative Mode]
+[03Nov2025 23:03:15.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gamer_tech811: Set own game mode to Survival Mode]
+[03Nov2025 23:03:58.144] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 moved too quickly! 7.164432988866838,0.0,8.198694724623351
+[03Nov2025 23:07:45.664] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 has made the advancement [Sweet Dreams]
+[03Nov2025 23:13:59.284] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gamer_tech811 lost connection: Disconnected
+[03Nov2025 23:13:59.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamer_tech811 left the game
+[03Nov2025 23:20:20.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[03Nov2025 23:20:20.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Nov2025 23:20:20.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Nov2025 23:20:20.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Nov2025 23:20:20.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03Nov2025 23:20:20.807] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03Nov2025 23:20:20.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03Nov2025 23:20:20.810] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Nov2025 23:20:20.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03Nov2025 23:20:20.811] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Nov2025 23:20:20.821] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03Nov2025 23:20:20.840] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Nov2025 23:20:20.858] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
